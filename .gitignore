@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Test, docs, and build
+build/
+dist/
+*.egg-info/
+tests/
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+data/
+!data/reports/
+!data/parquet/
+!data/raw/
+
+# Git
+.git/

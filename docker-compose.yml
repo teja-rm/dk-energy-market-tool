@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  dkenergy:
+    build: .
+    command: python -m dkenergy --full
+    volumes:
+      - ./data:/app/data
