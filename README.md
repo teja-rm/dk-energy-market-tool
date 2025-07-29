@@ -29,7 +29,7 @@ This tool fetches, processes, and analyzes Danish electricity spot prices to ide
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-github-handle>/dk-energy-market-tool.git
+git clone [dk-energy-market-tool.git]
 cd dk-energy-market-tool
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
